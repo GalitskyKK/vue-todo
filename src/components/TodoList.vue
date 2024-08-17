@@ -183,7 +183,13 @@ export default {
   border-radius: 10px;
   background: #ffffff;
   color: #000000;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 1px 2px rgba(0, 0, 0, 0.1);
+  transition: all 0.15s ease-in-out;
+}
+
+.input:focus {
+  outline: none;
+  border: 1px solid #33333375;
 }
 
 .search-input {
@@ -205,7 +211,7 @@ export default {
   font-weight: 600;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0px 1px 5px rgba(0, 0, 0, 0.1);
 }
 
 ul {
@@ -215,6 +221,7 @@ ul {
 
 .task-item {
   display: flex;
+  gap: 10px;
   align-items: center;
   padding: 12px;
   margin-bottom: 10px;

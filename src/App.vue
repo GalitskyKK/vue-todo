@@ -66,7 +66,7 @@ main {
   background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
   color: #000000;
 }
 
@@ -74,7 +74,7 @@ footer {
   text-align: center;
   margin-top: 40px;
   padding-top: 20px;
-  border-top: 1px solid #444;
+  border-top: 1px solid #4444445d;
   color: #777;
 }
 
